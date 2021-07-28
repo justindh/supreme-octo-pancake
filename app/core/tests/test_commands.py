@@ -25,4 +25,3 @@ class CommandTests(TestCase):
             call_command('wait_for_db')
             # verify we called the getitem exactly 6 times
             self.assertEqual(gi.call_count, 6)
-
